@@ -1,0 +1,25 @@
+{
+  "contatos": [
+    {
+      "icon": "mail",
+      "nome": "Pedro",
+      "telefone": "1234567899",
+      "email": "seu@email.com",
+      "id": 1
+    },
+    {
+      "0": {
+        "icon": "mail",
+        "nome": "Pedro",
+        "telefone": "1234567899",
+        "email": "seu@email.com",
+        "id": 1
+      },
+      "icon": "mail",
+      "nome": "Maria",
+      "telefone": "9874563215",
+      "email": "seu@email.com",
+      "id": 2
+    }
+  ]
+}

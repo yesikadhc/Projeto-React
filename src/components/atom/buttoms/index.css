@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+button {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    font-size: 45px;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: rgba(17, 85, 85, 5%);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    height: 70vh;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: rgb(17 85 85 / 5%);
+}
+
+label {
+    font-size: 25px;
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    width: auto;
+    height: auto;
+    left: -200px;
+}
+
+.card-contact {
+    background-color: #fff;
+    width: 35%;
+    height: 35vh;
+    border: 1px solid black;
+    display: flex;
+    color: #155;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px auto;
+    box-shadow: 5px 5px;
+
+}
+
+.m {
+    width: 80%;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-list {
+    background-color: #fff;
+    width: 90%;
+    height: 7.5vh;
+    border: 1px solid black;
+    display: flex;
+    color: #155;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px;
+}
+
+.card-list-busca {
+    background-color: #fff;
+    width: 60%;
+    height: 7.5vh;
+    border: 1px solid black;
+    display: flex;
+    color: #155;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 3px 3px;
+}
+
+.card-list-busca:hover {
+    cursor: pointer;
+}
+
+.div-busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contact {
+    height: 50vh;
+    background-color: aqua;
+}
+
+.content-nome {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.content-phone {
+    font-size: medium;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.content-email {
+    font-size: small;
+    font-weight: 400;
+    padding: 5px;
+}
+
+input {
+    width: 75%;
+    height: 45px;
+    border-radius: 75px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+input:active {
+    border: #155;
+}
+
+.input-busca {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.div-btn-home-pesquisa {
+    margin-top: 5rem;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.h1 {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.btn {
+    justify-content: space-evenly;
+    display: flex;
+    width: 75%;
+    height: 7vh;
+    background-color: #ffffff0a;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.formulario {
+    width: 70%;
+    min-height: 40vh;
+}
+
+.formulario-add-edit {
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+}
+
+
+.title {
+    width: 35%;
+}
+
+.card-t {
+    margin-top: 5rem;
+}
